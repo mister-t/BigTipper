@@ -80,6 +80,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Big Tipper Calculator" id="rU2-oV-fn5"/>
                     <connections>
+                        <outlet property="billField" destination="EUC-VZ-efo" id="iuP-Br-0r6"/>
                         <outlet property="tipLabel" destination="Ibv-VF-8z8" id="8eJ-7w-bfD"/>
                         <outlet property="totalLabel" destination="nYf-Qt-X9u" id="egH-Y9-M1t"/>
                     </connections>
