@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func onTap(sender: AnyObject) {
-        print("hello")
+        view.endEditing(true)
     }
 }
 
