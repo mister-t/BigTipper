@@ -79,6 +79,10 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Big Tipper Calculator" id="rU2-oV-fn5"/>
+                    <connections>
+                        <outlet property="tipLabel" destination="Ibv-VF-8z8" id="8eJ-7w-bfD"/>
+                        <outlet property="totalLabel" destination="nYf-Qt-X9u" id="egH-Y9-M1t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="UsB-ax-RbZ">
